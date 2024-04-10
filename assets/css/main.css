@@ -6,6 +6,13 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+.article {
+  display: flex;
+  justify-content: space-around; /* Adjusts spacing between items */
+  align-items: center; /* Aligns items vertically in the middle */
+  flex-wrap: wrap; /* Allows the items to wrap onto the next line if necessary */
+}
+
 
 html,
 body,
